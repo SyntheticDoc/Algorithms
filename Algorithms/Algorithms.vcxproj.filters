@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\BasicAlgorithms">
+      <UniqueIdentifier>{7cdae3f1-2bcc-459c-b2f3-e2984cc2d48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BasicAlgorithms">
+      <UniqueIdentifier>{25498a1d-a76f-41db-b1ad-cae33b0c87a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TestData">
+      <UniqueIdentifier>{f69f794f-635a-4729-9aad-d033e3467ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestData">
+      <UniqueIdentifier>{dd4d6263-5108-4d95-9c27-56b8e24b507f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Algorithms.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Euklid.cpp">
+      <Filter>Source Files\BasicAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData\Testdata.cpp">
+      <Filter>Source Files\TestData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestData\Euklid.h">
+      <Filter>Header Files\BasicAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="TestData\BasicAlgorithms.h">
+      <Filter>Header Files\BasicAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="TestData\Testdata.h">
+      <Filter>Header Files\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="TestData\Algorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

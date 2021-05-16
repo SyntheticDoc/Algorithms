@@ -151,7 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Algorithms.cpp" />
+    <ClCompile Include="Euklid.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="TestData\Testdata.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestData\BasicAlgorithms.h" />
+    <ClInclude Include="TestData\Euklid.h" />
+    <ClInclude Include="TestData\Algorithms.h" />
+    <ClInclude Include="TestData\Testdata.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
