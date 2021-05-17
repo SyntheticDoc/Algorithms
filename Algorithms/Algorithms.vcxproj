@@ -156,9 +156,9 @@
     <ClCompile Include="TestData\Testdata.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TestData\BasicAlgorithms.h" />
+    <ClInclude Include="Algorithms.h" />
+    <ClInclude Include="BasicAlgorithms\BasicAlgorithms.h" />
     <ClInclude Include="TestData\Euklid.h" />
-    <ClInclude Include="TestData\Algorithms.h" />
     <ClInclude Include="TestData\Testdata.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

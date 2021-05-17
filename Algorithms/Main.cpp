@@ -2,10 +2,11 @@
 //
 
 #include <iostream>
+#include "Algorithms.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    testEuklid();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

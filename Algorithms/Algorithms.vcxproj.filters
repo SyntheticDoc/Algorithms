@@ -41,14 +41,14 @@
     <ClInclude Include="TestData\Euklid.h">
       <Filter>Header Files\BasicAlgorithms</Filter>
     </ClInclude>
-    <ClInclude Include="TestData\BasicAlgorithms.h">
-      <Filter>Header Files\BasicAlgorithms</Filter>
-    </ClInclude>
     <ClInclude Include="TestData\Testdata.h">
       <Filter>Header Files\TestData</Filter>
     </ClInclude>
-    <ClInclude Include="TestData\Algorithms.h">
+    <ClInclude Include="Algorithms.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAlgorithms\BasicAlgorithms.h">
+      <Filter>Header Files\BasicAlgorithms</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
