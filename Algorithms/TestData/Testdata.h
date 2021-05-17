@@ -12,11 +12,11 @@ extern constexpr int EUKLID_2_expected = 73;
 
 extern constexpr int EUKLID_3m = 1548756;
 extern constexpr int EUKLID_3n = 174240;
-extern constexpr int EUKLID3_expected = 396;
+extern constexpr int EUKLID_3_expected = 396;
 
 extern constexpr int EUKLID_4m = 435280064;
 extern constexpr int EUKLID_4n = 169145048;
-extern constexpr int EUKLID4_expected = 8;
+extern constexpr int EUKLID_4_expected = 8;
 
 //      Testfunction for Euklid-Algorithm
 void testEuklid();
