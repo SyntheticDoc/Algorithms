@@ -30,17 +30,14 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Euklid.cpp">
-      <Filter>Source Files\BasicAlgorithms</Filter>
-    </ClCompile>
     <ClCompile Include="TestData\Testdata.cpp">
       <Filter>Source Files\Testdata</Filter>
     </ClCompile>
+    <ClCompile Include="BasicAlgorithms\Euklid.cpp">
+      <Filter>Source Files\BasicAlgorithms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TestData\Euklid.h">
-      <Filter>Header Files\BasicAlgorithms</Filter>
-    </ClInclude>
     <ClInclude Include="TestData\Testdata.h">
       <Filter>Header Files\Testdata</Filter>
     </ClInclude>
@@ -48,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BasicAlgorithms\BasicAlgorithms.h">
+      <Filter>Header Files\BasicAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAlgorithms\Euklid.h">
       <Filter>Header Files\BasicAlgorithms</Filter>
     </ClInclude>
   </ItemGroup>

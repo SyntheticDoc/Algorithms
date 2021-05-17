@@ -151,14 +151,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Euklid.cpp" />
+    <ClCompile Include="BasicAlgorithms\Euklid.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="TestData\Testdata.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithms.h" />
     <ClInclude Include="BasicAlgorithms\BasicAlgorithms.h" />
-    <ClInclude Include="TestData\Euklid.h" />
+    <ClInclude Include="BasicAlgorithms\Euklid.h" />
     <ClInclude Include="TestData\Testdata.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
